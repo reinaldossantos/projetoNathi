@@ -1,0 +1,123 @@
+:root{
+    font-family:"roboto","sans-serif";  
+}
+
+body {
+    line-height: 1;
+    background-color: #2f2d2c;
+}
+
+.navbar>.container, .navbar>.container-fluid, .navbar>.container-lg, .navbar>.container-md, .navbar>.container-sm, .navbar>.container-xl, .navbar>.container-xxl {
+    display: flex;
+    flex-wrap: inherit;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #F4D4AD;
+    border-radius: 10px;
+}
+
+.navbar-nav {
+    --bs-nav-link-hover-color: #AD6236;
+}
+
+.navbar-expand-lg {
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    background-color: #2f2d2c;
+}
+.nav-link{
+    margin: 20px;
+    font-size: 30px;
+    font-weight: 400;
+    border:solid 1px #4D2A24;
+    color: #2f2d2c;
+    border-radius: 10px;
+    padding: 10px 20px;
+}
+.btn-outline-success {
+    --bs-btn-color: block;
+    --bs-btn-border-color: #2f2d2c;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #2f2d2c;
+    --bs-btn-active-bg: #AD6236;
+    --bs-btn-hover-border-color: #AD6236;
+    --bs-btn-focus-shadow-rgb: 25, 135, 84;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-border-color: #2F2D2C;
+}
+
+#imgLogo{
+    width: 90px;
+}
+
+.imgCarrossel{
+    height: 600px;
+    object-fit: cover;
+}
+
+.carousel{
+    margin-bottom: 30px;
+}
+
+.carousel-item::before{
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    /* background: rgba(0,0,0,0.5); */  
+    /* background:linear-gradient(transparent, rgb(31,31,31,31)); */
+    background:linear-gradient(transparent, #1F1F1F); 
+
+
+}
+
+.tittleCarrosel{
+    font-size: 6rem;
+    font-weight: bold;
+    /* text-shadow: 2px 2px #000; */
+}
+.subtittleCarrossel{
+    font-size: 2rem;
+    font-weight: 400;
+}
+
+
+.cardMain{
+    display: flex;
+    /* margin-top: 30px; */
+    /* margin: 0px 50px 0px 50px; */
+    gap: 20px;
+    justify-content: center;
+}
+
+.card-body {
+    flex: 1 1 auto;
+    padding: var(--bs-card-spacer-y) var(--bs-card-spacer-x);
+    color: var(--bs-card-color);
+    background-color: #F4D4AD;
+}
+
+.card-title{
+    font: size 20px;
+    font-weight: bold;
+    display:flex;
+    justify-content:center;
+}
+.card-text{
+    text-align: justify;
+}
+
+.btnCard{
+    margin-top:15px;
+}
+
+.btn-primary {
+    --bs-btn-color: #fff;
+    --bs-btn-bg: #4D2A24;
+    --bs-btn-border-color: #fff;
+    --bs-btn-hover-border-color: #2f2d2c;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #AD6236;
+    --bs-btn-active-border-color: #0a0b0a;
+    --bs-btn-active-bg: #ad6236;
+}
